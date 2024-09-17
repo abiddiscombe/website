@@ -1,8 +1,5 @@
-const htmlmin = require("html-minifier");
-
 module.exports = function (config) {
     config.addPassthroughCopy({
-        'src/_assets/font': './font',
         'src/_assets/media': './media',
         'src/_assets/scripts': './scripts',
 
