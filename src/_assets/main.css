@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  @apply underline decoration-zinc-200 dark:decoration-zinc-600 hover:decoration-2 hover:decoration-zinc-700 dark:hover:decoration-zinc-200;
+}

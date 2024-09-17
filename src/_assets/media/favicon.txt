@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Squada One
+- Font Author: Copyright (c) 2011, Admix Designs (http://www.admixdesigns.com joe@admixdesigns.com) with Reserved Font Name Squada.
+- Font Source: https://fonts.gstatic.com/s/squadaone/v18/BCasqZ8XsOrx4mcOk6MtWaA8WDBkHgs.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
