@@ -1,5 +1,5 @@
 {
-  "name": "website",
+  "name": "abiddiscombe",
   "version": "1.0.0",
   "scripts": {
     "service:11ty": "npx @11ty/eleventy --input=./src",

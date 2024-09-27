@@ -2,15 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8"/>
-    <meta name="description" content="Archie Biddiscombe's Personal Website" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/main.css" />
     <link rel="icon" href="/media/favicon.ico" />
+    <link rel="stylesheet" href="/main.css" />
     <title>Archie Biddiscombe</title>
-    <script defer src="/scripts/main.js"></script>
   </head>
-  <body class="h-dvh grid grid-rows-[auto,_1fr] bg-zinc-50 dark:bg-zinc-950 text-zinc-700 dark:text-zinc-200">
-    {% include "partials/header.njk" %}
-    {{ content | safe }}
-  </body>
+  {{ content | safe }}
 </html>
