@@ -534,7 +534,8 @@ video {
 
 @font-face {
   font-family: "JetBrains Mono";
-  src: url("./font/JetBrainsMono-Regular.ttf");
+  font-display: swap;
+  src: local("JetBrains Mono"), url("./font/JetBrainsMono-Regular.ttf");
 }
 
 a {
@@ -560,9 +561,9 @@ a:hover {
   display: inline;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
 
-  .md\:text-sm {
+  .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
   }

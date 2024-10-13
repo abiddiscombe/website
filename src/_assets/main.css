@@ -4,7 +4,8 @@
 
 @font-face {
   font-family: "JetBrains Mono";
-  src: url("./font/JetBrainsMono-Regular.ttf");
+  font-display: swap;
+  src: local("JetBrains Mono"), url("./font/JetBrainsMono-Regular.ttf");
 }
 
 a {
