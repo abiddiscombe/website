@@ -521,25 +521,12 @@ video {
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
-.p-8 {
-  padding: 2rem;
-}
 .p-10 {
   padding: 2.5rem;
-}
-.text-zinc-700 {
-  --tw-text-opacity: 1;
-  color: rgb(63 63 70 / var(--tw-text-opacity));
 }
 .text-zinc-800 {
   --tw-text-opacity: 1;
   color: rgb(39 39 42 / var(--tw-text-opacity));
-}
-.decoration-zinc-600 {
-  text-decoration-color: #52525b;
-}
-.decoration-zinc-400 {
-  text-decoration-color: #a1a1aa;
 }
 
 @font-face {
@@ -595,16 +582,8 @@ a:hover {
     color: rgb(244 244 245 / var(--tw-text-opacity));
   }
 
-  .dark\:marker\:text-zinc-600 *::marker {
-    color: rgb(82 82 91 );
-  }
-
   .dark\:marker\:text-zinc-500 *::marker {
     color: rgb(113 113 122 );
-  }
-
-  .dark\:marker\:text-zinc-600::marker {
-    color: rgb(82 82 91 );
   }
 
   .dark\:marker\:text-zinc-500::marker {
