@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "JetBrains Mono";
-  font-display: swap;
-  src: local("JetBrains Mono"), url("./font/JetBrainsMono-Regular.ttf");
-}
-
 a {
   @apply underline underline-offset-4 text-purple-800 dark:text-purple-400 hover:decoration-2;
 }
