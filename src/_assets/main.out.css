@@ -116,7 +116,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace; /* 1 */
   font-feature-settings: normal; /* 2 */
   font-variation-settings: normal; /* 3 */
   font-size: 1em; /* 4 */
@@ -531,20 +531,6 @@ video {
 .gap-6 {
   gap: 1.5rem;
 }
-.rounded-md {
-  border-radius: 0.375rem;
-}
-.border {
-  border-width: 1px;
-}
-.border-primary-200 {
-  --tw-border-opacity: 1;
-  border-color: rgb(229 229 229 / var(--tw-border-opacity));
-}
-.bg-primary-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(250 250 250 / var(--tw-bg-opacity));
-}
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -555,22 +541,20 @@ video {
 .p-8 {
   padding: 2rem;
 }
-.p-4 {
-  padding: 1rem;
-}
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
+.font-mono {
+  font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
 }
 .font-semibold {
   font-weight: 600;
 }
+.uppercase {
+  text-transform: uppercase;
+}
 .tracking-wide {
   letter-spacing: 0.025em;
+}
+.tracking-wider {
+  letter-spacing: 0.05em;
 }
 .text-primary-800 {
   --tw-text-opacity: 1;
@@ -601,23 +585,7 @@ video {
 .hover\:duration-150:hover {
   transition-duration: 150ms;
 }
-@media (min-width: 640px) {
-
-  .sm\:p-8 {
-    padding: 2rem;
-  }
-}
 @media (prefers-color-scheme: dark) {
-
-  .dark\:border-primary-700 {
-    --tw-border-opacity: 1;
-    border-color: rgb(64 64 64 / var(--tw-border-opacity));
-  }
-
-  .dark\:bg-primary-900 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(23 23 23 / var(--tw-bg-opacity));
-  }
 
   .dark\:bg-primary-950 {
     --tw-bg-opacity: 1;
