@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: colors.zinc,
+        primary: colors.neutral,
       },
       fontFamily: {
         sans: ["-apple-system", "BlinkMacSystemFont", "avenir next", "avenir", "segoe ui", "helvetica neue", "helvetica", "Cantarell", "Ubuntu", "roboto", "noto", "arial", "sans-serif"],
