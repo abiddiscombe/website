@@ -7,7 +7,3 @@ The following commands handle both PostCSS (for Tailwind CSS) and Eleventy. The 
 - Dev Mode - `npm run dev`
 
 - Static Build - `npm run build`
-
-## Acknowledgements
-
-- GitHub and LinkedIn SVGs from [Simple Icons](https://simpleicons.org/).
